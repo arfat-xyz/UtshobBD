@@ -10,17 +10,20 @@ const CommingSoon2 = () => {
   const publishDate = new Date("22 Nov, 2023 22:22:22");
   const timeLeft = publishDate - nowDate;
   const tempS = new Date(timeLeft).getSeconds();
-  setS(tempS);
+
   useEffect(() => {
+    setS(tempS);
     setInterval(() => {
       if (s === 0) {
-        setS();
+        setS(50);
+      } else {
+        setS(s - 1);
       }
     }, 1000);
   }, []);
-  const x = useCountdown(y);
-  console.log(x);
-  return <div>{x[3].toString()}</div>;
+  //   const x = useCountdown(y);
+  //   console.log(x);
+  return <div>{s}</div>;
 };
 
 export default CommingSoon2;

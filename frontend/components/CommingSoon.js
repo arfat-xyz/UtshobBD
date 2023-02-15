@@ -82,7 +82,7 @@ const CommingSoon = () => {
         className="w-100 hidden md:block  min-h-screen 
         bg-[url('https://i.ibb.co/r0d6Ptd/Utshob-BD-bg.jpg')]
          bg-cover 
-      bg-blend-darken bg-slate-600"
+       "
       >
         <div className="grid grid-cols-2">
           <div></div>
