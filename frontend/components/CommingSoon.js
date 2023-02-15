@@ -88,9 +88,9 @@ const CommingSoon = () => {
           <div></div>
           <div>
             <div className="grid grid-cols-4">
-              <div></div>
+              <div className="col-span-2"></div>
               <div>
-                <h1 className="text-6xl font-bold text-white col-span-3">
+                <h1 className="text-6xl font-bold text-white col-span-2">
                   Coming <br /> Soon!
                 </h1>
                 <div className="grid grid-cols-4 text-white text-2xl">
