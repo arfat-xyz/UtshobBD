@@ -3,7 +3,7 @@ import React from "react";
 
 import { MdLocationOn } from "react-icons/md";
 const CommingSoon = () => {
-  const time = new Date("22 Nov, 2023 22:22:22");
+  const time = new Date("25 Feb, 2023 23:59:59");
   const timeLeft = useCountdown(time);
   console.log(timeLeft);
   return (
@@ -33,7 +33,7 @@ const CommingSoon = () => {
                 </div>
               </div>
             </div>
-            <div className="md:h-[75%] lg:h-[50%] h-[55%] flex justify-end items-end">
+            <div className="md:h-[75%] lg:h-[60%] h-[55%] flex justify-end items-end">
               <div className="flex text-[#fbae17] ">
                 <p className="capitalize font-bold font-exo text-2xl text-right">
                   find us on <br />
